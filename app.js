@@ -42,7 +42,7 @@ app.post("/",function(req , res){
       //Converting javascript variable into Jason
       const jsonData =  JSON.stringify(data);
                         //server number                    //listId
-      const url = "https://us9.api.mailchimp.com/3.0/lists/725e6d10aa";
+      const url = "https://us19.api.mailchimp.com/3.0/lists/725e6d10aa";
 
       const options = {
 
